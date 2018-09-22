@@ -41,3 +41,27 @@ label {
     background-color: #C00000;
     border-color: #C00000;
 }
+
+
+/*
+  These rules take effect when the browser's width 640px and below
+*/
+
+@media screen and (max-width: 640px) {
+    
+    .card {
+        margin: 20px auto;
+        width: 400px;
+    }
+    .title {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .button {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
+  
