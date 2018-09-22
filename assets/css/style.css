@@ -1,8 +1,7 @@
 
 
 body {
-    background-image: url("../images/flag.jpg");
-    background-repeat: no-repeat;
+    background: url("../images/flag.jpg") no-repeat center center fixed;
     background-size: cover;
     font-family: 'Noto Serif KR', sans-serif;
 
