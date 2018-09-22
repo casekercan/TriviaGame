@@ -1,23 +1,44 @@
-.main {
-    background-color: aqua;
+
+
+body {
+    background-image: url("../images/flag.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.card {
     color: black;
-    margin: auto;
+    margin: 50px auto;
     width: 500px;
     height: auto;
     padding: 20px;
     text-align: center;
 }
 
+
 button {
-    background-color: purple;
-    color: white;
-    font-size: 20px;
-    padding: 10px 30px 10px 30px;
-    margin-top: 20px; 
+    margin-top: 30px; 
+}
+
+label {
+    display: inline;
+    padding-right: 5px;
+}
+
+#timer {
     margin-bottom: 20px;
 }
 
-
-h3 {
+.title {
+    font-weight: bold;
+    margin-top: 40px;
     font-size: 18px;
+}
+
+.button {
+    padding: 15px 20px 15px 20px;
+    font-size: 18px;
+    background-color: #C00000;
+    border-color: #C00000;
 }
