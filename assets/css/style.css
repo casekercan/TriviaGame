@@ -1,0 +1,23 @@
+.main {
+    background-color: aqua;
+    color: black;
+    margin: auto;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+
+h3 {
+    font-size: 18px;
+}
