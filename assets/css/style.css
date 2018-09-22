@@ -4,8 +4,8 @@ body {
     background-image: url("../images/flag.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Noto Serif KR', sans-serif;
 
-    
 }
 .card {
     color: black;

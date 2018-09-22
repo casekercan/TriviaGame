@@ -52,11 +52,32 @@ var questions =
             choices: ["Trout", "Spotted Fish", "Striped Bass", "Catfish"],
             answer: 2
         },
-
-
+        {
+            question: "What is the state cake?",
+            choices: ["Smith Island", "Cheesecake", "Swiss Roll", "Lady Baltimore Cake"],
+            answer: 0
+        },
+        {
+            question: "What is Maryland's nickname?",
+            choices: ["Old Line State", "Little America", "Free State", "All Of Them"],
+            answer: 3
+        },
+        {
+            question: "Maryland is made up of how many Counties?",
+            choices: ["10", "31", "23", "37"],
+            answer: 2
+        },
+        {
+            question: "What is the state bird?",
+            choices: ["Chesapeake Blue Bird", "Baltimore Oriole", "Sea Gull", "American Crow"],
+            answer: 1
+        },
+        {
+            question: "What is the state beverage?",
+            choices: ["Orange Juice", "Water", "Milk", "Coca Cola"],
+            answer: 2
+        }
     ];
-
-
 
 
 function displayQuiz() {
@@ -118,7 +139,7 @@ $("#submit").on("click", function (e) {
 function returnScore() {
     clearTimeout(intervalId);
 
-    for (i = 0; i < 5; i++) {
+    for (i = 0; i < 10; i++) {
         //if returns undefined then a question is missed/not answered.
         if ($("input[name=" + i + "]:checked").val() === undefined) {
             unanswered++;
